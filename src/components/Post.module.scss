@@ -1,0 +1,64 @@
+.post {
+
+	border-bottom: 1px solid rgb(219, 219, 219);
+	padding-top: 1rem;
+	padding-bottom: 0.2rem;
+
+	p {
+
+		font-size: 0.9rem;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.postText {
+
+		color: rgb(107, 112, 97);
+	}
+}
+
+.postAvatar {
+
+	height: 3.5rem;
+	width: 3.5rem;
+	margin-right: 1rem;
+	border: 3px solid rgba(218, 223, 208, 1);
+}
+
+.postInfo {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 1rem;
+	color: rgb(190, 190, 190);
+}
+
+.postReactions {
+
+	display: flex;
+	justify-content: space-between;
+	padding-right: 1rem;
+	margin-top: 0.5rem;
+	color: rgb(107, 112, 97);
+
+	.postReaction {
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 0.9rem;
+
+		ion-icon {
+
+			margin-right: 0.5rem;
+		}
+
+		p {
+
+			padding: 0;
+			margin: 0;
+			font-size: 0.8rem;
+		}
+	}
+}

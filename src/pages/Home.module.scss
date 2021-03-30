@@ -1,0 +1,102 @@
+$main-color: rgb(143, 149, 130);
+
+.page {
+
+	ion-toolbar {
+
+		--background: rgb(143, 149, 130) !important;
+		--color: white;
+		--border-style: none;
+		margin: 0 !important;
+	}
+}
+
+.top {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: rgb(143, 149, 130);
+	color: white;
+	padding-bottom: 1rem;
+}
+
+.figures {
+
+	text-align: center;
+	background-color: rgb(143, 149, 130);
+	color: white;
+
+	p, h6 {
+
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.profileHeader {
+
+	ion-card-subtitle,
+	ion-card-title {
+
+		--color: white;
+	}
+
+	ion-card-title {
+
+		font-size: 1.3rem;
+	}
+
+	ion-card-subtitle {
+
+		--color: rgb(202, 211, 189);
+	}
+}
+
+.avatar {
+
+	width: 7rem;
+	height: 7rem;
+	border: 5px solid rgba(218, 223, 208, 0.4);
+}
+
+.avatarUpload {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	background-color: rgb(255, 255, 255);
+	border: 3px solid rgba(218, 223, 208, 0.4);
+	color: rgb(80, 80, 80);
+	position: absolute;
+	padding: 0.3rem;
+	font-size: 1.1rem;
+	border-radius: 500px;
+	margin-top: -2.2rem;
+	margin-left: 5rem;
+}
+
+.postActions {
+
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.2rem;
+	padding-left: 1.3rem;
+	padding-right: 1.3rem;
+	color: rgb(149, 149, 149);
+	font-size: 0.9rem;
+	border-bottom: 1px solid rgba(218, 223, 208, 1);
+
+	background-color: rgba(218, 223, 208, 0.4);
+
+	ion-icon {
+
+		font-size: 1.2rem;
+	}
+}
